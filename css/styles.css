@@ -1,0 +1,147 @@
+:root {
+  --main-text: #434455;
+  --subtle-text: #2e2f42;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text);
+  background-color: #ffffff;
+}
+
+/* ========== COMPONENTS ========== */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo > span {
+  color: var(--subtle-text);
+}
+.footer span {
+  color: #f4f4fd;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--subtle-text);
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--subtle-text);
+}
+.description-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text);
+}
+
+/* ========== /COMPONENTS ========== */
+/* ========== NAVIGATION ========== */
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--subtle-text);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+.contact-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--subtle-text);
+}
+.contact-info:hover,
+.contact-info:focus {
+  color: #404bbf;
+}
+/* ========== /NAVIGATION ========== */
+/* ========== Hero section ========== */
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* color: #FFFFFF; */
+}
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #404bbf;
+}
+
+/* ========== /Hero section ========== */
+/* ========== Section 1. What are we doing. Text ========== */
+/* ========== /Section 1. What are we doing. Text ========== */
+/* ========== Section 2. What are we doing. Image ========== */
+/* ========== /Section 2. What are we doing. Image ========== */
+/* ========== Section 3. Team ========== */
+.team {
+  background-color: #f4f4fd;
+}
+/* ========== /Section 3. Team ========== */
+/* ========== Footer ========== */
+.footer {
+  background: #2e2f42;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+/* ========== /Footer ========== */
+/* --------------------------------------------- portfolio */
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #ffffff;
+  background: #404bbf;
+}
