@@ -45,6 +45,7 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: var(--title-text);
 }
 .subtitle {
@@ -62,8 +63,10 @@ body {
 
 /* ========== /COMPONENTS ========== */
 /* ========== NAVIGATION ========== */
+.addres-nav {
+  font-style: normal;
+}
 .menu-link {
-  /* font-weight: 500; */
   font-size: 16px;
   line-height: 1.5;
   color: var(--title-text);
@@ -73,11 +76,11 @@ body {
   color: var(--focus-color);
 }
 .contact-info {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--title-text);
+  /* color: var(--title-text); */
+  color: #434455;
 }
 .contact-info:hover,
 .contact-info:focus {
@@ -88,9 +91,11 @@ body {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
-  /* color: var(--white); */
+  letter-spacing: 0.02em;
+  color: var(--white);
+  background-color: #2e2f42;
 }
 .modal-btn {
   font-family: 'Roboto', sans-serif;
