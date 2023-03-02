@@ -1,6 +1,11 @@
 :root {
-  --main-text: #434455;
-  --subtle-text: #2e2f42;
+  --body-text: #434455;
+  --title-text: #2e2f42;
+  --brand-color: #4d5ae5;
+  --focus-color: #404bbf;
+  --white: #ffffff;
+  --background: #f4f4fd;
+  --footer-text: #e7e9fc;
 }
 
 .list {
@@ -11,8 +16,10 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--main-text);
-  background-color: #ffffff;
+  font-weight: 500;
+  color: var(--body-text);
+  letter-spacing: 0.02em;
+  background-color: var(--white);
 }
 
 /* ========== COMPONENTS ========== */
@@ -25,60 +32,56 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--brand-color);
 }
 .logo > span {
-  color: var(--subtle-text);
+  color: var(--title-text);
 }
 .footer span {
-  color: #f4f4fd;
+  color: var(--background);
 }
 .section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--subtle-text);
+  color: var(--title-text);
 }
 .subtitle {
-  font-weight: 500;
+  font-weight: inherit;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--subtle-text);
+  color: var(--title-text);
 }
 .description-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-text);
+  color: var(--body-text);
 }
 
 /* ========== /COMPONENTS ========== */
 /* ========== NAVIGATION ========== */
 .menu-link {
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--subtle-text);
+  color: var(--title-text);
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  color: var(--focus-color);
 }
 .contact-info {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--subtle-text);
+  color: var(--title-text);
 }
 .contact-info:hover,
 .contact-info:focus {
-  color: #404bbf;
+  color: var(--focus-color);
 }
 /* ========== /NAVIGATION ========== */
 /* ========== Hero section ========== */
@@ -87,24 +90,23 @@ body {
   font-size: 56px;
   line-height: 60px;
   text-align: center;
-  letter-spacing: 0.02em;
-  /* color: #FFFFFF; */
+  /* color: var(--white); */
 }
 .modal-btn {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: inherit;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #4d5ae5;
+  color: var(--white);
+  background: var(--brand-color);
   cursor: pointer;
 }
 .modal-btn:hover,
 .modal-btn:focus {
-  background: #404bbf;
+  background: var(--focus-color);
 }
 
 /* ========== /Hero section ========== */
@@ -114,36 +116,36 @@ body {
 /* ========== /Section 2. What are we doing. Image ========== */
 /* ========== Section 3. Team ========== */
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--background);
 }
 /* ========== /Section 3. Team ========== */
 /* ========== Footer ========== */
 .footer {
-  background: #2e2f42;
+  background: var(--title-text);
 }
 .footer-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--footer-text);
 }
 /* ========== /Footer ========== */
 /* --------------------------------------------- portfolio */
 .filter-btn {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: inherit;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
+  color: var(--brand-color);
+  background: var(--background);
   cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus {
-  color: #ffffff;
-  background: #404bbf;
+  color: var(--white);
+  background: var(--focus-color);
 }
